@@ -11,17 +11,11 @@ public class StringUppercase {
 
 		List<String> list=Arrays.asList("Roy","Tom","Jerry");
 		
-		List<String>  result=list.stream()
-				      .map(String::toUpperCase)
-				      .collect(Collectors.toList());
+		List<String> result=list.stream()
+								.map(String::toUpperCase)	
+								.collect(Collectors.toList());
 		
 		System.out.println(result);
-		
-		List<Integer> res1=list.stream()
-						      .map(String::length)								
-						      .collect(Collectors.toList());
-		
-		System.out.println(res1);
 	}
 
 }
