@@ -10,14 +10,23 @@ public class CountWordOccurence {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		List<String> li=Arrays.asList("Nomad","Roy","Roy");
 		
-		Map<String,Long> wordCount=li.stream()
-									.collect(Collectors.groupingBy(w->w,Collectors.counting()));
 		
-		System.out.println(wordCount);
 									     
 
+		// WITH REDUCE
+		
+		List<Integer> l2=Arrays.asList(1,2,3,4,5,6);
+		
+		int result3=l2.stream().mapToInt(Integer::intValue).sum();
+		
+		System.out.println(result3);
+		
+		
+		
+		int result2=l2.stream().reduce(0,Integer::sum);
+		System.out.println(result2);
+		
 	}
 
 }
