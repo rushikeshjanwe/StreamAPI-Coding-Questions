@@ -3,6 +3,7 @@ package com.example;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class MaxValue {
 
@@ -17,7 +18,6 @@ public class MaxValue {
 	    
 	   System.out.println(result);
 	   
-	    
+	   
 	}
-
 }
