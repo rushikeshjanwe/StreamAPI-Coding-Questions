@@ -9,6 +9,8 @@ public class StringUppercase {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
+
 		List<String> list=Arrays.asList("Roy","Tom","Jerry");
 		
 		List<String> result=list.stream()
