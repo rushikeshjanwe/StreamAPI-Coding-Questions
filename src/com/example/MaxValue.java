@@ -18,6 +18,10 @@ public class MaxValue {
 	    
 	   System.out.println(result);
 	   
+	   String x="hello";
+	   String y=new String("He") + "llo";
+	   
+	   System.out.println(x==y);
 	   
 	}
 }
