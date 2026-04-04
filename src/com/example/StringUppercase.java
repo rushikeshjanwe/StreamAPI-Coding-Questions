@@ -10,7 +10,6 @@ public class StringUppercase {
 		// TODO Auto-generated method stub
 
 
-		
 		List<String> list=Arrays.asList("Roy","Tom","Jerry");
 		
 		List<String> result=list.stream()
