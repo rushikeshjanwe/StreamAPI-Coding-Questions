@@ -16,5 +16,4 @@ public class StringUppercase {
 		
 		System.out.println(result);
 	}
-
 }
