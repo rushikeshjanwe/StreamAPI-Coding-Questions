@@ -12,10 +12,9 @@ public class SecondHighest {
 		List<Integer> numbers = Arrays.asList(10, 20, 30, 40, 50);
 		
 		int num=numbers.stream().sorted(Comparator.reverseOrder())
-						.skip(1)
-						.findFirst()
-						.orElseThrow(() -> new RuntimeException("No Second hig found"));
-						
+								.skip(1)
+								.findFirst()
+								.orElseThrow(() -> new RuntimeException("No Second highest found"));
 	   	
 			System.out.println(num);
 }
