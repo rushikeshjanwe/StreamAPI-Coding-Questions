@@ -11,13 +11,14 @@ public class CountFreqCharacter {
 		// TODO Auto-generated method stub
 
 		
-		String input = "java"; 
-		Map<Character, Long> frequency =
-				input.chars()
-				     .mapToObj(c-> (char)c)
-				     .collect(Collectors.groupingBy(c->c, Collectors.counting()));
+		String input = "programming"; 
 		
+		
+		Map<Character,Long> frequency=input.chars()
+										   .mapToObj(c -> (char)c)
+										   .collect(Collectors.groupingBy(c->c,Collectors.counting()));
 		System.out.println(frequency);
+		
 		
 				
 	}
