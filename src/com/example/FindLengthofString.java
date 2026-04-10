@@ -10,8 +10,7 @@ public class FindLengthofString {
 	public static void main(String[] args) {
 
 
-		
-		
+	
 		List<String> list=Arrays.asList("Roy","Tom","Jerry");
 		
 		List<Integer> result=list.stream()
