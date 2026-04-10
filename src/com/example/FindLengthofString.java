@@ -11,6 +11,7 @@ public class FindLengthofString {
 
 
 		
+		
 		List<String> list=Arrays.asList("Roy","Tom","Jerry");
 		
 		List<Integer> result=list.stream()
