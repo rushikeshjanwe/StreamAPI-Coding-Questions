@@ -43,7 +43,8 @@ public class FindDuplicates {
 	    	}
 	    
 	    }
-	    
+
+		
 	    System.out.println(result);
 	   System.out.println(hash);
 	}
