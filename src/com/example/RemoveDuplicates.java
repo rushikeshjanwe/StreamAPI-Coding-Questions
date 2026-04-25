@@ -14,7 +14,6 @@ public class RemoveDuplicates {
 			List<Integer> asList=Arrays.asList(1,2,3,4,1,2,3);
 			
 			List<Integer> result=asList.stream().distinct().collect(Collectors.toList());
-
 			
 			System.out.println(result);
 			
