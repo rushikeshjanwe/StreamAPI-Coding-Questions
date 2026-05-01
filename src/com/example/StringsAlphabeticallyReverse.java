@@ -23,7 +23,6 @@ public class StringsAlphabeticallyReverse {
 		System.out.println(result2);
 						
 		
-		
 	}
 
 }
