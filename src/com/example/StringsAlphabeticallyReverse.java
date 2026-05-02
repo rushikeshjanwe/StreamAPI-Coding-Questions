@@ -15,6 +15,7 @@ public class StringsAlphabeticallyReverse {
 									.sorted()	
 									.collect(Collectors.toList());
 		System.out.println(result);
+
 		
 		List<String> result2=names.stream()
 			.sorted(Comparator.reverseOrder())
