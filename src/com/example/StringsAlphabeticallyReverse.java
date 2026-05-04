@@ -11,7 +11,6 @@ public class StringsAlphabeticallyReverse {
 		// TODO Auto-generated method stub
 		List<String> names = Arrays.asList("Charlie", "Alice", "Bob"); 
 
-		
 		List<String> result= names.stream()
 									.sorted()	
 									.collect(Collectors.toList());
