@@ -14,7 +14,6 @@ class Employee {
     String city;
 
 	
-
 	
 	
     public Employee(Integer id, String name, String department, double salary, String city) {
