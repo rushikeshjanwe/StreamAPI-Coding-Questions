@@ -9,7 +9,8 @@ public class CountWordOccurence {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-									
+
+		
 		// WITH REDUCE
 		
 		List<Integer> l2=Arrays.asList(1,2,3,4,5,6);
