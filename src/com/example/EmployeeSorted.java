@@ -11,7 +11,6 @@ public class EmployeeSorted {
     int salary; 
 
 
-    
     EmployeeSorted(String name, int salary) { 
         this.name = name; 
         this.salary = salary; 
