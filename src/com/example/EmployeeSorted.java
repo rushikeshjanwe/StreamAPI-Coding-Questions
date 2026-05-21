@@ -21,7 +21,6 @@ public class EmployeeSorted {
     
     public static void main(String[] args) {
 
-
         List<EmployeeSorted> employees = Arrays.asList( 
             new EmployeeSorted("Alice", 5000), 
             new EmployeeSorted("Bob", 3000), 
