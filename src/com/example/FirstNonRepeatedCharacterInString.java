@@ -2,7 +2,6 @@ package com.example;
 
 public class FirstNonRepeatedCharacterInString {
 
-	
 	public static void main(String[] args) {
 		
 		String input="Swiss";
