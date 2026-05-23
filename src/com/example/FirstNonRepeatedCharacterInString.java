@@ -6,6 +6,8 @@ public class FirstNonRepeatedCharacterInString {
 		
 		String input="Swiss";
 
+
+
 		
 		Character result= input.chars()
 						.mapToObj(c-> (char)c)
