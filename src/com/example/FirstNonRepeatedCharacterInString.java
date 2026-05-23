@@ -8,7 +8,6 @@ public class FirstNonRepeatedCharacterInString {
 
 
 
-		
 		Character result= input.chars()
 						.mapToObj(c-> (char)c)
 						.filter(ch -> input.indexOf(ch)==input.lastIndexOf(ch))
