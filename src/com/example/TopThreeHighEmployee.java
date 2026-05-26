@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 
 public class TopThreeHighEmployee {
 
-	
 	  int id;
 	    String name;
 	    double salary;
