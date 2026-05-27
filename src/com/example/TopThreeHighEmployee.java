@@ -11,7 +11,6 @@ public class TopThreeHighEmployee {
 	    String name;
 	    double salary;
 	    
-	    
 	    TopThreeHighEmployee(int id, String name, double salary) {
 	        this.id = id;
 	        this.name = name;
