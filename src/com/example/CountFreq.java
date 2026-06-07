@@ -21,8 +21,7 @@ public class CountFreq {
 	    System.out.println(result2);
 		
 		System.out.println(result);
-		
-			
+				
 	}
 
 }
