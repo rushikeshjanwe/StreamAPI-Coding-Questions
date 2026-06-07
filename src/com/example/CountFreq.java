@@ -22,7 +22,6 @@ public class CountFreq {
 		
 		System.out.println(result);
 		
-	
 			
 	}
 
